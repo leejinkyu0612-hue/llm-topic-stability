@@ -1,0 +1,96 @@
+{
+ "source": "arXiv API export.arxiv.org (metadata released under CC0 1.0)",
+ "corpora": {
+  "CS8": {
+   "cats": [
+    "cs.CV",
+    "cs.CL",
+    "cs.CR",
+    "cs.RO",
+    "cs.DB",
+    "cs.NI",
+    "cs.SE",
+    "cs.DS"
+   ],
+   "years": [
+    2024
+   ]
+  },
+  "QBIO6": {
+   "cats": [
+    "q-bio.NC",
+    "q-bio.PE",
+    "q-bio.BM",
+    "q-bio.GN",
+    "q-bio.MN",
+    "q-bio.QM"
+   ],
+   "years": [
+    2023,
+    2024
+   ]
+  }
+ },
+ "sampling": "quarterly windows, earliest-submitted records per quarter returned by API, primary-category filter, then seeded shuffle",
+ "n_per_category": 100,
+ "seed": 20261122,
+ "per_category": {
+  "cs.CV": {
+   "primary_matches_pool": 480,
+   "sampled": 100
+  },
+  "cs.CL": {
+   "primary_matches_pool": 446,
+   "sampled": 100
+  },
+  "cs.CR": {
+   "primary_matches_pool": 401,
+   "sampled": 100
+  },
+  "cs.RO": {
+   "primary_matches_pool": 479,
+   "sampled": 100
+  },
+  "cs.DB": {
+   "primary_matches_pool": 369,
+   "sampled": 100
+  },
+  "cs.NI": {
+   "primary_matches_pool": 416,
+   "sampled": 100
+  },
+  "cs.SE": {
+   "primary_matches_pool": 454,
+   "sampled": 100
+  },
+  "cs.DS": {
+   "primary_matches_pool": 354,
+   "sampled": 100
+  },
+  "q-bio.NC": {
+   "primary_matches_pool": 417,
+   "sampled": 100
+  },
+  "q-bio.PE": {
+   "primary_matches_pool": 412,
+   "sampled": 100
+  },
+  "q-bio.BM": {
+   "primary_matches_pool": 374,
+   "sampled": 100
+  },
+  "q-bio.GN": {
+   "primary_matches_pool": 307,
+   "sampled": 100
+  },
+  "q-bio.MN": {
+   "primary_matches_pool": 237,
+   "sampled": 100
+  },
+  "q-bio.QM": {
+   "primary_matches_pool": 305,
+   "sampled": 100
+  }
+ },
+ "collected": "2026-11-22 23:29:39"
+}
